@@ -225,44 +225,7 @@
 	var slider = new Swiper('.main-slider', {
 		slidesPerView: 1,
 		spaceBetween: 0,
-		loop: true,
-		autoplay: {
-			enabled: true,
-			delay: 6000
-		},
-		// Navigation arrows
-		navigation: {
-			nextEl: '.main-slider-next',
-			prevEl: '.main-slider-prev',
-			clickable: true,
-		},
-		//Pagination
-		pagination: {
-			el: ".slider-one_pagination",
-			clickable: true,
-			//type: "progressbar",
-		},
 		speed: 500,
-		breakpoints: {
-			'1600': {
-				slidesPerView: 1,
-			},
-			'1200': {
-				slidesPerView: 1,
-			},
-			'992': {
-				slidesPerView: 1,
-			},
-			'768': {
-				slidesPerView: 1,
-			},
-			'576': {
-				slidesPerView: 1,
-			},
-			'0': {
-				slidesPerView: 1,
-			},
-		},
 	});
 
 
@@ -405,59 +368,6 @@
 		},
 	});
 
-
-
-
-	// Four Items Slider
-	var slider = new Swiper('.four-items_slider', {
-		slidesPerView: 4,
-		spaceBetween: 30,
-		loop: true,
-		autoHeight: true,
-		//centeredSlides: true,
-		autoplay: {
-			enabled: true,
-			delay: 6000
-		},
-		// Navigation arrows
-		navigation: {
-			nextEl: '.four-items_slider-next',
-			prevEl: '.four-items_slider-prev',
-			clickable: true,
-		},
-		//Pagination
-		pagination: {
-			el: ".four-items_slider-pagination",
-			clickable: true,
-		},
-		speed: 500,
-		breakpoints: {
-			'1600': {
-				slidesPerView: 4,
-			},
-			'1200': {
-				slidesPerView: 4,
-			},
-			'1100': {
-				slidesPerView: 3,
-			},
-			'992': {
-				slidesPerView: 2,
-			},
-			'768': {
-				slidesPerView: 2,
-			},
-			'576': {
-				slidesPerView: 1,
-			},
-			'0': {
-				slidesPerView: 1,
-			},
-		},
-	});
-
-
-
 	// Instagram Slider
 	var slider = new Swiper('.instagram_carousel', {
 		slidesPerView: 8,
@@ -466,17 +376,6 @@
 		autoplay: {
 			enabled: true,
 			delay: 6000
-		},
-		// Navigation arrows
-		navigation: {
-			nextEl: '.instagram_carousel-next',
-			prevEl: '.instagram_carousel-prev',
-			clickable: true,
-		},
-		//Pagination
-		pagination: {
-			el: ".instagram_carousel-pagination",
-			clickable: true,
 		},
 		speed: 500,
 		breakpoints: {
